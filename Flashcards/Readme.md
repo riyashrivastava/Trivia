@@ -1,5 +1,46 @@
 ## Flashcards
 
+## Lab 4
+
+### App Description
+The app now has an icon and splash screen. The flashcards are animated, and the app features a gradient backround and a cohesive, visually appealing design.
+
+### App Walk-though
+
+<img src="https://github.com/riyashrivastava/Flashcards/raw/main/lab4.gif" width=200><br>
+
+## Required
+- [x] User should see the app icon 
+- [x] User should see a splash screen
+- [x] User should see an flip animation when revealing the answer
+- [x] User should see a slide animation when going to the next flashcard
+- [x] User should see a slide animation when going to the previous flashcard
+- [x] Push code to GitHub
+## Optional
+- [x] User should see a nicer flaschard with rounded corners, shadows, and animating when showing the first time
+- [x] User should see all views properly layout when using the app on a phone of different sizes
+- [x] Correct answer in multiple choice should be random
+
+
+## Lab 3
+
+### App Description
+The user can browse through multiple flashcrads, edit existing flashcards, delete flashcards, and save all flashcards to the app.
+
+### App Walk-though
+
+<img src="https://github.com/riyashrivastava/Flashcards/raw/main/lab3.gif" width=200><br>
+
+## Required
+- [x] User can browse through multiple flashcards
+- [x] User can re-open the app and see previously created flashcards
+- [x] Push code to GitHub
+## Optional
+- [x] User can delete a flashcard
+- [x] User can edit existing flashcard
+- [x] User can store multiple choice questions
+
+
 ## Lab 2
 
 ### App Description
