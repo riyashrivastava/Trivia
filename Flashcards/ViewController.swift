@@ -152,10 +152,10 @@ class ViewController: UIViewController {
         
         if button1 == correctButton {
             question.isHidden = true
-            button1.layer.borderColor = #colorLiteral(red: 0.5730569959, green: 0.8487328291, blue: 1, alpha: 1)
+            button1.layer.borderColor = #colorLiteral(red: 0.5843137503, green: 0.8235294223, blue: 0.4196078479, alpha: 1)
             
         } else {
-            button1.layer.borderColor = #colorLiteral(red: 0.8078431487, green: 0.02745098062, blue: 0.3333333433, alpha: 1)
+            button1.layer.borderColor = #colorLiteral(red: 0.8549019694, green: 0.250980407, blue: 0.4784313738, alpha: 1)
         }
     }
     
@@ -164,10 +164,10 @@ class ViewController: UIViewController {
         
         if button2 == correctButton {
             question.isHidden = true
-            button2.layer.borderColor = #colorLiteral(red: 0.5730569959, green: 0.8487328291, blue: 1, alpha: 1)
+            button2.layer.borderColor = #colorLiteral(red: 0.5843137503, green: 0.8235294223, blue: 0.4196078479, alpha: 1)
             
         } else {
-            button2.layer.borderColor = #colorLiteral(red: 0.8078431487, green: 0.02745098062, blue: 0.3333333433, alpha: 1)
+            button2.layer.borderColor = #colorLiteral(red: 0.8549019694, green: 0.250980407, blue: 0.4784313738, alpha: 1)
         }
     }
     
@@ -175,10 +175,10 @@ class ViewController: UIViewController {
     @IBAction func didTapButton3(_ sender: Any) {
         if button3 == correctButton {
             question.isHidden = true
-            button3.layer.borderColor = #colorLiteral(red: 0.5730569959, green: 0.8487328291, blue: 1, alpha: 1)
+            button3.layer.borderColor = #colorLiteral(red: 0.5843137503, green: 0.8235294223, blue: 0.4196078479, alpha: 1)
             
         } else {
-            button3.layer.borderColor = #colorLiteral(red: 0.8078431487, green: 0.02745098062, blue: 0.3333333433, alpha: 1)
+            button3.layer.borderColor = #colorLiteral(red: 0.8549019694, green: 0.250980407, blue: 0.4784313738, alpha: 1)
         }
     }
     
