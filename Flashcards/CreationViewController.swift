@@ -13,7 +13,6 @@ class CreationViewController: UIViewController {
     
     @IBOutlet weak var questionText: UITextField!
     @IBOutlet weak var answerText: UITextField!
-    
     @IBOutlet weak var optionalAnswer1Text: UITextField!
     @IBOutlet weak var optionalAnswer2Text: UITextField!
     
@@ -31,14 +30,14 @@ class CreationViewController: UIViewController {
         
     }
     
-    
     @IBAction func didTapOnCancel(_ sender: Any) {
-        dismiss(animated: true)
         
+        dismiss(animated: true)
     }
     
-    
     @IBAction func didTapOnDone(_ sender: Any) {
+        
+        // user is creating a new flashcard
         
         let question = questionText.text
         let answer = answerText.text
@@ -51,9 +50,7 @@ class CreationViewController: UIViewController {
         if (question == nil || answer == nil || question!.isEmpty || answer!.isEmpty) {
             
             let alert = UIAlertController(title: "Missing text", message: "You need to enter both a question and an answer", preferredStyle: .alert)
-            
             present(alert, animated: true)
-            
             let okAction = UIAlertAction(title: "Okay", style: .default)
             alert.addAction(okAction)
             
@@ -72,5 +69,4 @@ class CreationViewController: UIViewController {
         // Pass the selected object to the new view controller.
     }
     */
-
 }
