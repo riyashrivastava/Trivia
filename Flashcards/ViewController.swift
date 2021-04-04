@@ -210,6 +210,7 @@ class ViewController: UIViewController {
         updateLabels()
         updateNextPrevButtons()
         
+        question.isHidden = false
         button1.layer.borderColor = #colorLiteral(red: 0.1691980958, green: 0.1244860366, blue: 1, alpha: 1)
         button2.layer.borderColor = #colorLiteral(red: 0.1691980958, green: 0.1244860366, blue: 1, alpha: 1)
         button3.layer.borderColor = #colorLiteral(red: 0.1691980958, green: 0.1244860366, blue: 1, alpha: 1)
