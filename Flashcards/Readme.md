@@ -1,4 +1,4 @@
-## QuaranTrivia
+## Trivia
 
 ### App Description
 
