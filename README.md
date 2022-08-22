@@ -9,4 +9,3 @@ This is a trivia app, flashcards-style. The app has an icon and splash screen, a
 <img src="https://github.com/riyashrivastava/Flashcards/raw/main/lab4.gif" width=200><br>
 
 <img src="https://github.com/riyashrivastava/Flashcards/raw/main/lab3.gif" width=200><br>
-
